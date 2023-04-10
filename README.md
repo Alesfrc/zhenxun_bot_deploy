@@ -33,6 +33,8 @@
 - 一些[百度](https://baidu.com)/[Google](https://google.com) 的能力
 - 一台服务器
 
+[懒人一键安装](https://github.com/zhenxun-org/zhenxun_bot-deploy)
+
 ### 开始安装
 
 教程安装对象系统为 Ubantu 20.04 LTSC
