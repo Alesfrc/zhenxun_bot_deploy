@@ -22,22 +22,22 @@
   - [zhenxun_bot 安装](#zhenxun_bot安装)
 - [启动 go-cqhttp](#启动go-cqhttp)
 - [启动 zhenxun_bot](#启动zhenxun_bot)
-- [管理&注意事项](#管理注意事项)
+- [管理&注意事项](#管理和注意事项)
 - [相关链接](#相关链接)
 - [关于 Nonebot 插件](#关于nonebot插件)
 
-### [注意事项](注意事项)
+### 注意事项
 
 安装真寻 bot，你需要具备
 - 一定的基础，包括但不限于稍微熟悉 linux 或 windows cmd 命令行
 - 一些[百度](https://baidu.com)/[Google](https://google.com) 的能力
 - 一台服务器
 
-### [开始安装](开始安装)
+### 开始安装
 
 教程安装对象系统为 Ubantu 20.04 LTSC
 
-#### [安装依赖](安装依赖)
+#### 安装依赖
 
 首先安装 wget、git、screen、ffmpeg 以便后续使用
 
@@ -52,7 +52,7 @@ sudo apt install python3-pip -y
 sudo pip3 install poetry
 ```
 
-#### [Python 安装](python安装)
+#### python安装
 
 安装 Python3.10
 <br />
@@ -136,7 +136,7 @@ universal: ws://127.0.0.1:8080/onebot/v11/ws
 
 在本地上运行 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases) 并登录，把 device.json 和 session.token 复制到服务器上
 
-#### [zhenxun_bot 安装](zhenxun_bot安装)
+#### zhenxun_bot安装
 
 安装 Postgresql 数据库
 
@@ -247,7 +247,7 @@ sudo apt-get install -y ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-
 sudo fc-cache -f -v
 ```
 
-### [启动 go-cqhttp](启动go-cqhttp)
+### 启动go-cqhttp
 
 创建 screen
 
@@ -264,7 +264,7 @@ cd ~/go-cqhttp
 
 Ctrl+A+D 退出虚拟终端
 
-### [启动 zhenxun_bot](启动zhenxun_bot)
+### 启动zhenxun_bot
 
 创建 screen
 
@@ -293,7 +293,7 @@ python3 bot.py
 
 启动后等待资源文件全部下载完成
 
-### [管理&注意事项](管理注意事项)
+### 管理和注意事项
 
 运行真寻 bot 一定要进入虚拟环境!!!
 
@@ -319,7 +319,7 @@ screen -r zhenxun_bot
 <br />
 使用 screen -r name -X quit 结束 screen
 
-### [相关链接](相关链接)
+### 相关链接
 
 [真寻 bot 的文档](https://hibikier.github.io/zhenxun_bot)
 <br />
@@ -331,7 +331,7 @@ screen -r zhenxun_bot
 <br />
 [真寻 bot 的 WebUI](https://github.com/HibiKier/zhenxun_bot_webui)
 
-## [关于 Nonebot 插件](关于nonebot插件)
+## 关于nonebot插件
 
 zhenxun_bot 不兼容 Nonebot 插件
 <br />
