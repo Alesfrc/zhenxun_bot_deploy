@@ -116,7 +116,7 @@ pip3 install poetry
 ```
 mkdir ~/go-cqhttp && \
 	cd ~/go-cqhttp && \
-	wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc1/go-cqhttp_linux_amd64.tar.gz -O go-cqhttp_linux_amd64.tar.gz && \
+	wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0/go-cqhttp_linux_amd64.tar.gz -O go-cqhttp_linux_amd64.tar.gz && \
 	tar -zxvf go-cqhttp_linux_amd64.tar.gz
 ```
 
