@@ -198,20 +198,7 @@ playwright install-deps chromium
 填写数据库数据
 
 ```
-cd configs/
-nano config.py
-
-############################################################
-### 如果你是与教程一模一样的命令代码，且数据库也在该服务器上 #
-############################################################
-# 可以直接复制以下配置
-bind: str = ""  # 数据库连接链接
-sql_name: str = "postgres"
-user: str = "postgres"
-password: str = "zhenxun_bot"
-address: str = "127.0.0.1"
-port: str = "5432"
-database: str = "zhenxun_bot"
+sed -i 's|bind.*|bind: str = "postgresql://postgres:zhenxun_bot@127:5432/zhenxun_bot"|g' configs/config.py
 ```
 
 真寻 bot 依赖
