@@ -198,7 +198,7 @@ playwright install-deps chromium
 填写数据库数据
 
 ```
-sed -i 's|bind.*|bind: str = "postgresql://postgres:zhenxun_bot@127:5432/zhenxun_bot"|g' configs/config.py
+sed -i 's|bind.*|bind: str = "postgresql://postgres:zhenxun_bot@127.0.0.1:5432/zhenxun_bot"|g' configs/config.py
 ```
 
 真寻 bot 依赖
