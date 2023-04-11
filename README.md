@@ -151,20 +151,10 @@ sudo apt update && sudo apt install postgresql postgresql-contrib -y
 ```
 sudo su - postgres  # 切换用户
 psql
-        #  用户名↓                # 密码↓
-# CREATE USER uname WITH PASSWORD 'zhenxun';      # 创建用户（可不执行）
-
-                                  # 密码↓
-alter user postgres with password 'zhenxun_bot';    # 修改postgres的密码
-
-        # 数据库名称↓    所有者(用户名)↓
-CREATE DATABASE zhenxun_bot OWNER postgres;             # 创建数据库
-```
-
-退出数据库并切换到你的常用 Ubuntu 账号
-
-```
+alter user postgres with password 'zhenxun_bot';
+CREATE DATABASE zhenxun_bot OWNER postgres;
 exit
+su root
 ```
 
 git clone [真寻](https://github.com/HibiKier/zhenxun_bot)源码
